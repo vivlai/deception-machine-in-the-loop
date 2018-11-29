@@ -24,5 +24,5 @@ This repository contains the dataset that we collected from our user study.
 Check out our demo page [here](https://deception.machineintheloop.com/)! :smiley_cat:
 
 
-![spectrum][spectrum.png]
+![spectrum](spectrum.png)
 
