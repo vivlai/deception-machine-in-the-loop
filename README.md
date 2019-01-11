@@ -1,7 +1,28 @@
-## Machine in the Loop: A Case on Deception Detection
+## Dataset for "On Human Predictions with Explanations and Predictions of Machine Learning Models: A Case Study on Deception Detection"
 
-We used deception detection as a testbed and investigate how we can harness explanations and predictions of machine learning models to improve human performance while retaining human agency. For more details, our work is presented in this [paper](https://arxiv.org/abs/1811.07901).
+Distributed together with:    
+[On Human Predictions with Explanations and Predictions of Machine Learning Models: A Case Study on Deception Detection.](https://chenhaot.com/papers/human-predictions.html)   
+Vivian Lai and Chenhao Tan.    
+In Proceedings of ACM FAT* Conference 2019.
 
-This repository contains the dataset of the empirical study we performed. `label.jsonlist.gz` contains users inputs and `survey.jsonlist.gz` contains users survey response and demographic information.
+If you use the dataset, please cite
+
+@inproceedings{lai+tan:19,    
+     &nbsp;&nbsp;&nbsp;&nbsp;author = {Vivian Lai and Chenhao Tan},     
+     &nbsp;&nbsp;&nbsp;&nbsp;title = {On Human Predictions with Explanations and Predictions of Machine Learning Models: A Case Study on Deception Detection},    
+     &nbsp;&nbsp;&nbsp;&nbsp;year = {2019},     
+     &nbsp;&nbsp;&nbsp;&nbsp;booktitle = {Proceedings of FAT*}      
+}
+
+--------------------------------------------------------------
+
+This repository contains the dataset that we collected from our user study.
+
+* `label.jsonlist.gz` contains users inputs including human predictions, the associated experimental condition, and review information.
+* `survey.jsonlist.gz` contains users response in the exit survey including demographic information.
 
 Check out our demo page [here](https://deception.machineintheloop.com/)! :smiley_cat:
+
+
+![spectrum](spectrum.png)
+
